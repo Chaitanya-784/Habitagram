@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CalendarView
+    android:id="@+id/nativeCalendarView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvCompletedHabits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Completed Habits" />
+
+    <TextView
+        android:id="@+id/tvHabitsForDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Habits For Date" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHabitsForDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

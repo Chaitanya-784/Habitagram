@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:gravity="center_vertical"
+    android:padding="12dp" android:background="@drawable/white_rounded_bg"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:text="username"
+        android:textSize="16sp" android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/btnAccept"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Accept" android:background="@drawable/rounded_button"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btnReject"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Reject" android:background="@drawable/rounded_button"
+        android:textColor="#fff" android:layout_marginStart="8dp"/>
+</LinearLayout>

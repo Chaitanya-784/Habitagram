@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgimag"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Dashboard Button -->
+    <Button
+        android:id="@+id/btnDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📋 Dashboard"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/gradient_button_bg"
+        android:drawablePadding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Habit Tracker Button -->
+    <Button
+        android:id="@+id/btnTracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🧠 Habit Tracker"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/gradient_button_bg"
+        android:drawablePadding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Calendar Button -->
+    <Button
+        android:id="@+id/btnCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📅 Calendar"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/gradient_button_bg"
+        android:drawableStart="@drawable/ic_calendar"
+        android:drawablePadding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnAddFriends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="👥 Add Friends"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/gradient_button_bg"
+        android:drawableStart="@drawable/ic_add_person"
+        android:drawablePadding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- My Friends Button -->
+    <Button
+        android:id="@+id/btnMyFriends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="👫 My Friends"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/gradient_button_bg"
+        android:drawablePadding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+
+
+
+    <!-- Settings Button -->
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚙️ Settings"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/gradient_button_bg"
+        android:drawablePadding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
